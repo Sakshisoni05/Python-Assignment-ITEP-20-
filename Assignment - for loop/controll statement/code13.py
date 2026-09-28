@@ -1,0 +1,8 @@
+# 13) WAP to print N natural numbers in reverse order.
+
+num = int(input("Enter number: "))
+
+for i in range(num,0,-1):
+    print(i,end=" ")
+
+    
